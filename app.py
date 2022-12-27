@@ -5,5 +5,11 @@ app = Flask(__name__)
 def product():
     return render_template("product.html")
 
+@app.route('/service')
+def service():
+    return render_template("product.html")
+
+
+
 if __name__=="__main__":
     app.run(debug=True, port=8000)
