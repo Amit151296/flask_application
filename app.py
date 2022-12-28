@@ -9,6 +9,9 @@ def product():
 def service():
     return render_template("product.html")
 
+@app.about('/about')
+def service():
+    print("Amit kumar is a best boy in the world")
 
 
 if __name__=="__main__":
