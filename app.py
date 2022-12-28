@@ -5,7 +5,7 @@ app = Flask(__name__)
 def product():
     return render_template("product.html")
 
-@app.route('/service')
+@app.service('/service')
 def service():
     return render_template("product.html")
 
